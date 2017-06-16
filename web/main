@@ -1,0 +1,291 @@
+/*css for navbar*/
+body {
+  height: 100%;
+    display: block;
+    margin: 0px;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+.topnav {
+    background-color: #333;
+    overflow: hidden;
+    position: ;
+    width: 100%;
+
+}
+.topnav a {
+    float: right;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+.topnav a:hover {
+    color: gold;
+}
+.topnav .icon {
+    display: none;
+}
+.brand {
+  float: left !important;
+}
+.logo{
+  width:100px;
+  height: 20px
+}
+.login-btn {
+  border-radius: 40%;
+  padding: 8px;
+  background: #555;
+}
+@media screen and (max-width: 600px) {
+  .topnav a:not(:first-child) {display: none;}
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+}
+@media screen and (max-width: 600px) {
+  .topnav.responsive {position: relative;}
+  .topnav.responsive a.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+
+  .brand.responsive {
+    float: none !important;
+  }
+}
+#image-slider {
+  position: relative;
+}
+#image-slider img{
+  width: 100%;
+  height: 350px;
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(80%);
+}
+.leftbutton{
+
+}
+.rightbutton {
+  right: 0%;
+}
+.sliderbtn{
+  position: absolute;
+  top:50%;
+
+}
+.imageslide{
+  position: relative;
+
+}
+
+.caption {
+    color:black;
+    text-align: center;
+    margin: 0;
+    width: 350px;
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    height: 100px;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    overflow: hidden;
+
+}
+.infobtn{
+    text-align: center;
+    margin: 0;
+    width: 350px;
+    position: absolute;
+    left: 50%;
+    top: 60%;
+    border-radius: 30px;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+}
+
+  .btnview, .btninfo{
+    width: 120px;
+    height: 40px;
+    border-radius: 30px;
+  }
+.btnview {
+  margin-right: 28px;
+}
+.contentmain{
+  margin-left:40px;
+  margin-right: 40px;
+}
+.contentleft{
+  width: 65%;
+  float: left;
+  clear: both;
+  margin-top: 35px;
+}
+.imgcontent1{
+  width: 100%;
+  margin-bottom: 8px;
+}
+h1, h2 {
+  font-size: 15px;
+}
+hr {
+  height: 2px;
+  width: 100%;
+}
+.detailimg{
+  width: 100%
+}
+.details1,.details2,.details3,.details4{
+  width:48%;
+  float: left;
+  margin-right: 4pt;
+  margin-left: 4pt;
+  border: 1px solid;
+  margin-bottom: 8pt;
+  }
+.contentright{
+  float: right;
+  width: 30%;
+  margin-top: 45px;
+}
+.contentmain{
+  height: 100%
+}
+#mysearch{
+  height: 35px;
+  width: 100%;
+  margin-top: 12px;
+}
+@media screen and (max-width: 1000px){
+  .details1,.details2,.details3,.details4{
+    width: 100%;
+  }
+}
+@media screen and (max-width: 495px){
+  .contentright{
+    float:none;
+    width: 100%
+  }
+  .contentleft{
+    width: 100%;
+    left:0
+  }
+  .footer{
+    height: 500px;
+  }
+}
+
+p{
+  font-size: 12px
+}
+
+.profile{
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+}
+.readbtn{
+  
+    width: 100px;
+    height: 30px;
+    margin-right: 4px;
+    border-radius: 30px;
+    float: right;
+    clear: right;
+    margin-top: -30px;
+}
+.footer{
+  color: white;
+    position:relative;
+    clear: both;
+   bottom:0;
+   width:100%;
+   height:60px;   /* Height of the footer */
+   background:#333;
+   height: 230px;
+
+}
+.mainfootercontent{
+  margin-right:10px;
+  margin-left: 10px;
+}
+.logofooter{
+  width: 100px;
+  height: 20px;
+  margin-top: 16px;
+}
+.footercontent1{
+  width: 20%;
+  float: left;
+  margin-left:40px;
+
+}
+.footercontent2{
+  width: 20%;
+  float: right;
+}
+.footercontent3{
+  width: 20%;
+  float: right;
+}
+.footercontent4{
+  width:20%;
+  float: right;
+}
+.footer a{
+  text-decoration: none;
+  font-size: 12px;
+  color: white
+}
+.footer li{
+  display: block;
+}
+.footercontainer{
+  height: 75%;
+}
+.copy{
+  text-align: center;
+}
+.title{
+  font-weight: bold;
+}
+.advertisement1, .advertisement2{
+  background: green;
+  height:200px;
+  width: 100%;
+  margin-bottom: 30px;
+}
+@media screen and (max-width: 495px){
+  .footer{
+    height: 350px;
+  }
+  .footercontent1,.footercontent2,.footercontent3,.footercontent4{
+    width: 40%;
+    
+  }
+  .footercontent4{
+    margin-right: 45px;
+  }
+}
+@media screen and (max-width: 350px){
+  .footer{
+    height: 425px;
+  }
+  .profiledetails{
+    display: none;
+  }
+  .readbtn{
+    margin-top: 10px
+  }
+}
